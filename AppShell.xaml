@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PrefiAct.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PrefiAct.Pages"
+    
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title= "mario" FlyoutIcon="mario.png" ContentTemplate ="{DataTemplate local:Mario}"  >
+            
+        </ShellContent>
+        <ShellContent Title="subway" FlyoutIcon="subway.jpg" ContentTemplate="{DataTemplate local:Subway}" >
+            
+        </ShellContent>
+        <ShellContent Title="Templerun" FlyoutIcon="templerun.jpg" ContentTemplate="{DataTemplate local:TempleRun}" >
+            
+        </ShellContent>
+    </FlyoutItem>
+
+
+</Shell>
